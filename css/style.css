@@ -10,7 +10,7 @@
     --fw-reg:300;
     --fw-bold:900;
 
-    --clr-light:#fff;
+    --clr-light:rgba(236, 226, 226, 0.918);
     --clr-dark:#303030;
     --clr-accent:#0de1e9;
 
@@ -108,6 +108,7 @@ h3 { font-size:var(--fs-h3);}
 
 .section__title--intro {
     font-weight:var(--fw-reg);
+    
 }
 .section__title--intro strong {
     display: block;
@@ -399,6 +400,7 @@ nav {
 .portfolio__img {
     width:100%;
     height:100%;
+    border-radius: 2rem;
 }
 
 .portfolio__img {
